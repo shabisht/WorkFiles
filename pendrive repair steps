@@ -1,0 +1,16 @@
+repair pendrive steps
+right click on start --------------- go to comd promp admin
+type
+{
+diskpart
+list disk
+select disk ___
+clean
+create partition primary
+active
+select partition 1
+format fs=ntfs quick
+exit
+exit
+
+}
